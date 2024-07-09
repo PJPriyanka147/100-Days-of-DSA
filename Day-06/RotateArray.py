@@ -1,22 +1,22 @@
 #Using Brute force -- 
-# def rotate_array(nums, k):
-#     n = len(nums)
-#     k = k % n
+def rotate_array(nums, k):
+    n = len(nums)
+    k = k % n
 
-#     for i in range(k):
-#         last_element = nums[-1]
+    for i in range(k):
+        last_element = nums[-1]
 
-#         for j in range(n-1, 0, -1):
-#             nums[j] = nums[j - 1]
+        for j in range(n-1, 0, -1):
+            nums[j] = nums[j - 1]
 
-#         nums[0] = last_element
+        nums[0] = last_element
 
-#     return nums
+    return nums
 
-# arr = list(map(int, input("Enter the elements: ").split()))
-# k = int(input("Enter K: "))
-# result = rotate_array(arr, k)
-# print(result)
+arr = list(map(int, input("Enter the elements: ").split()))
+k = int(input("Enter K: "))
+result = rotate_array(arr, k)
+print(result)
 
 #Using Reversal Technique --
 def rotate_array(nums, k):

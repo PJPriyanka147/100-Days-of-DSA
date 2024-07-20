@@ -11,3 +11,4 @@ def reverse_pairs(nums):
 nums = list(map(int, input("Enter the elements:").split()))
 result = reverse_pairs(nums)
 print(result)
+

@@ -1,6 +1,2 @@
 # 30-Days-of-DSA
-
-- 📘 This repository tracks my journey of learning Data Structures and Algorithms (DSA).
-- 📅 I aim to maintain a streak of 30 days of continuous learning to improve my skills.
-- 💡 It's a daily reminder to work towards my dreams in software development.
-
+Welcome to my "30 Days of DSA" challenge! In this repository, I'll be learning and practicing Data Structures and Algorithms every day for 30 days. Follow along as I share my progress and solutions.
